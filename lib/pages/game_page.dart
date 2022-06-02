@@ -16,7 +16,7 @@ class GamePage extends StatelessWidget {
     return Scaffold(
       body: SafeArea(
         child: Container(
-          padding: EdgeInsets.symmetric(horizontal: _deviceHeight! * 0.05),
+          padding: EdgeInsets.symmetric(horizontal: _deviceHeight! * 0.04),
           child: _gameUI(),
         ),
       ),
